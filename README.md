@@ -20,7 +20,7 @@ composer require leadthread/api-php
 ```php
 use LeadThread\Api\LeadThread;
 
-$client = new LeadThread($API_TOKEN, "your_company_domain");
+$client = new LeadThread($API_TOKEN);
 
-$positions = $client->positions->all();
+$campaigns = $client->campaigns->all();
 ```
