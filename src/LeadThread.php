@@ -15,7 +15,7 @@ class LeadThread
     protected $client;
     protected $resource;
 
-    public function __construct($api_key, $host = "app.leadthread.com", $secure = true)
+    public function __construct($api_key, $host = "app.yaptive.com", $secure = true)
     {
         $protocol = $secure ? "https" : "http";
         $this->api_key = $api_key;
